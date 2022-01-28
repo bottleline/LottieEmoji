@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A91652DB1454D9922374F82 /* Pods_LottieEmoji.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39688282D7ECABADACF30FC /* Pods_LottieEmoji.framework */; };
 		EEAF6FAA27A3AE0700762ED9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAF6FA927A3AE0700762ED9 /* AppDelegate.swift */; };
 		EEAF6FAC27A3AE0700762ED9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAF6FAB27A3AE0700762ED9 /* SceneDelegate.swift */; };
 		EEAF6FAE27A3AE0700762ED9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAF6FAD27A3AE0700762ED9 /* ViewController.swift */; };
 		EEAF6FB127A3AE0700762ED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEAF6FAF27A3AE0700762ED9 /* Main.storyboard */; };
 		EEAF6FB327A3AE0800762ED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEAF6FB227A3AE0800762ED9 /* Assets.xcassets */; };
 		EEAF6FB627A3AE0800762ED9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEAF6FB427A3AE0800762ED9 /* LaunchScreen.storyboard */; };
+		EEAF6FBE27A3B05500762ED9 /* MyTextAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAF6FBD27A3B05500762ED9 /* MyTextAttachment.swift */; };
+		EEAF6FC027A3B07C00762ED9 /* TextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAF6FBF27A3B07C00762ED9 /* TextView+Extension.swift */; };
+		EEAF6FC427A3B13E00762ED9 /* heart.json in Resources */ = {isa = PBXBuildFile; fileRef = EEAF6FC127A3B13E00762ED9 /* heart.json */; };
+		EEAF6FC527A3B13E00762ED9 /* heart2.json in Resources */ = {isa = PBXBuildFile; fileRef = EEAF6FC227A3B13E00762ED9 /* heart2.json */; };
+		EEAF6FC627A3B13E00762ED9 /* loader.json in Resources */ = {isa = PBXBuildFile; fileRef = EEAF6FC327A3B13E00762ED9 /* loader.json */; };
+		EEAF6FC827A3B15700762ED9 /* bananadance.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEAF6FC727A3B15700762ED9 /* bananadance.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		695BFCEA3A1DCA6D38C05404 /* Pods-LottieEmoji.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieEmoji.debug.xcconfig"; path = "Target Support Files/Pods-LottieEmoji/Pods-LottieEmoji.debug.xcconfig"; sourceTree = "<group>"; };
 		EEAF6FA627A3AE0700762ED9 /* LottieEmoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieEmoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEAF6FA927A3AE0700762ED9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEAF6FAB27A3AE0700762ED9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,14 @@
 		EEAF6FB227A3AE0800762ED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEAF6FB527A3AE0800762ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEAF6FB727A3AE0800762ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEAF6FBD27A3B05500762ED9 /* MyTextAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextAttachment.swift; sourceTree = "<group>"; };
+		EEAF6FBF27A3B07C00762ED9 /* TextView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextView+Extension.swift"; sourceTree = "<group>"; };
+		EEAF6FC127A3B13E00762ED9 /* heart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heart.json; sourceTree = "<group>"; };
+		EEAF6FC227A3B13E00762ED9 /* heart2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heart2.json; sourceTree = "<group>"; };
+		EEAF6FC327A3B13E00762ED9 /* loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loader.json; sourceTree = "<group>"; };
+		EEAF6FC727A3B15700762ED9 /* bananadance.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bananadance.gif; sourceTree = "<group>"; };
+		F39688282D7ECABADACF30FC /* Pods_LottieEmoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieEmoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F453155E205E0D1DD463EF5E /* Pods-LottieEmoji.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieEmoji.release.xcconfig"; path = "Target Support Files/Pods-LottieEmoji/Pods-LottieEmoji.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A91652DB1454D9922374F82 /* Pods_LottieEmoji.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20522861DA8DD6A03E6D5E09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F39688282D7ECABADACF30FC /* Pods_LottieEmoji.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8525CD89E84337CA6511B72C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				695BFCEA3A1DCA6D38C05404 /* Pods-LottieEmoji.debug.xcconfig */,
+				F453155E205E0D1DD463EF5E /* Pods-LottieEmoji.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EEAF6F9D27A3AE0700762ED9 = {
 			isa = PBXGroup;
 			children = (
 				EEAF6FA827A3AE0700762ED9 /* LottieEmoji */,
 				EEAF6FA727A3AE0700762ED9 /* Products */,
+				8525CD89E84337CA6511B72C /* Pods */,
+				20522861DA8DD6A03E6D5E09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,9 +92,15 @@
 		EEAF6FA827A3AE0700762ED9 /* LottieEmoji */ = {
 			isa = PBXGroup;
 			children = (
+				EEAF6FC127A3B13E00762ED9 /* heart.json */,
+				EEAF6FC227A3B13E00762ED9 /* heart2.json */,
+				EEAF6FC327A3B13E00762ED9 /* loader.json */,
+				EEAF6FC727A3B15700762ED9 /* bananadance.gif */,
 				EEAF6FA927A3AE0700762ED9 /* AppDelegate.swift */,
 				EEAF6FAB27A3AE0700762ED9 /* SceneDelegate.swift */,
 				EEAF6FAD27A3AE0700762ED9 /* ViewController.swift */,
+				EEAF6FBD27A3B05500762ED9 /* MyTextAttachment.swift */,
+				EEAF6FBF27A3B07C00762ED9 /* TextView+Extension.swift */,
 				EEAF6FAF27A3AE0700762ED9 /* Main.storyboard */,
 				EEAF6FB227A3AE0800762ED9 /* Assets.xcassets */,
 				EEAF6FB427A3AE0800762ED9 /* LaunchScreen.storyboard */,
@@ -74,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEAF6FBA27A3AE0800762ED9 /* Build configuration list for PBXNativeTarget "LottieEmoji" */;
 			buildPhases = (
+				43C14951B74B1CC1DB0ABF2D /* [CP] Check Pods Manifest.lock */,
 				EEAF6FA227A3AE0700762ED9 /* Sources */,
 				EEAF6FA327A3AE0700762ED9 /* Frameworks */,
 				EEAF6FA427A3AE0700762ED9 /* Resources */,
+				A7E995595844E79CB8961129 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,13 +169,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEAF6FC627A3B13E00762ED9 /* loader.json in Resources */,
 				EEAF6FB627A3AE0800762ED9 /* LaunchScreen.storyboard in Resources */,
 				EEAF6FB327A3AE0800762ED9 /* Assets.xcassets in Resources */,
+				EEAF6FC427A3B13E00762ED9 /* heart.json in Resources */,
+				EEAF6FC827A3B15700762ED9 /* bananadance.gif in Resources */,
 				EEAF6FB127A3AE0700762ED9 /* Main.storyboard in Resources */,
+				EEAF6FC527A3B13E00762ED9 /* heart2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43C14951B74B1CC1DB0ABF2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LottieEmoji-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7E995595844E79CB8961129 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LottieEmoji/Pods-LottieEmoji-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LottieEmoji/Pods-LottieEmoji-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LottieEmoji/Pods-LottieEmoji-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EEAF6FA227A3AE0700762ED9 /* Sources */ = {
@@ -139,6 +229,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEAF6FAE27A3AE0700762ED9 /* ViewController.swift in Sources */,
+				EEAF6FC027A3B07C00762ED9 /* TextView+Extension.swift in Sources */,
+				EEAF6FBE27A3B05500762ED9 /* MyTextAttachment.swift in Sources */,
 				EEAF6FAA27A3AE0700762ED9 /* AppDelegate.swift in Sources */,
 				EEAF6FAC27A3AE0700762ED9 /* SceneDelegate.swift in Sources */,
 			);
@@ -284,6 +376,7 @@
 		};
 		EEAF6FBB27A3AE0800762ED9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 695BFCEA3A1DCA6D38C05404 /* Pods-LottieEmoji.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +405,7 @@
 		};
 		EEAF6FBC27A3AE0800762ED9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F453155E205E0D1DD463EF5E /* Pods-LottieEmoji.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
