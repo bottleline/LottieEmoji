@@ -51,6 +51,7 @@ class ViewController: UIViewController {
         lottieButton2.addTarget(self, action: #selector(addLottie2), for: .touchUpInside)
         gifButton1.addTarget(self, action: #selector(addGif), for: .touchUpInside)
         
+        textView.delegate = self
     }
     
 
@@ -85,4 +86,12 @@ class ViewController: UIViewController {
     }
 
 
+}
+
+extension ViewController:UITextViewDelegate{
+    func textViewDidChange(_ textView: UITextView) {
+        self.textView.setAnimationEmoji()
+        textView.font = UIFont.systemFont(ofSize: 30)
+        textView.textColor = .label
+    }
 }

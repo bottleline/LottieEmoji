@@ -39,7 +39,6 @@ extension UITextView{
                     }
                     
                     if attachment?.attachType == .lottie {
-                        print(attachment?.imageName)
                         let av = AnimationView(name: (attachment?.imageName) ?? "")
                         av.play()
                         av.loopMode = .loop
@@ -49,7 +48,6 @@ extension UITextView{
                         
                         self.addSubview(av)
                     }else if attachment?.attachType == .gif{
-                        print(attachment?.imageName)
                         let iv = GIFImageView(frame: rect)
                         self.addSubview(iv)
                         iv.animate(withGIFNamed: (attachment?.imageName) ?? "")
