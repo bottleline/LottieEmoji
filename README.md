@@ -13,6 +13,6 @@
 
 ## Example
 
-![ezgif.com-gif-maker (4).gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/feaf56cd-46bc-4106-9cb1-19057767998a/ezgif.com-gif-maker_(4).gif)
+![ezgif com-gif-maker (4)](https://user-images.githubusercontent.com/97213734/151642359-4e11506e-808c-4d88-998b-03da8c386166.gif)
   
-    
+![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/97213734/151642365-c06c1ac8-0122-4e6a-bac6-7016e4c64bbe.gif)
